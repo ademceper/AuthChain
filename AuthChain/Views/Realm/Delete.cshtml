@@ -1,0 +1,26 @@
+@model AuthChain.DTOs.RealmDto
+
+@{
+    ViewData["Title"] = "Realm Sil";
+}
+
+<div class="container mx-auto p-6">
+    <h1 class="text-3xl font-semibold mb-6">@ViewData["Title"]</h1>
+
+    <p class="mb-4">Bu Realm'i silmek istediğinizden emin misiniz?</p>
+
+    <form method="post" class="bg-white p-6 rounded shadow-lg">
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700">Ad:</label>
+            <p class="text-gray-600">@Model.Name</p>
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700">Açıklama:</label>
+            <p class="text-gray-600">@Model.Description</p>
+        </div>
+
+        <button type="submit" class="bg-red-600 text-white p-3 rounded">Sil</button>
+        <a href="@Url.Action("Index")" class="bg-gray-300 text-black p-3 rounded ml-4">İptal</a>
+    </form>
+</div>

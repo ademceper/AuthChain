@@ -1,4 +1,3 @@
-
 public abstract class BaseEntity
 {
     public Guid Id { get; set; } = Guid.NewGuid();
@@ -10,5 +9,10 @@ public abstract class BaseEntity
     {
         UpdatedAt = DateTime.UtcNow;
     }
-}
 
+    public void SoftDelete()
+    {
+        IsDeleted = true;
+        SetUpdated();
+    }
+}

@@ -1,0 +1,23 @@
+@model AuthChain.DTOs.UpdateRealmDto
+
+@{
+    ViewData["Title"] = "Realm Düzenle";
+}
+
+<div class="container mx-auto p-6">
+    <h1 class="text-3xl font-semibold mb-6">@ViewData["Title"]</h1>
+
+    <form method="post" class="bg-white p-6 rounded shadow-lg">
+        <div class="mb-4">
+            <label for="Name" class="block text-sm font-medium text-gray-700">Realm Adı</label>
+            <input type="text" id="Name" name="Name" value="@Model.Name" class="mt-2 p-2 border border-gray-300 rounded w-full" required />
+        </div>
+
+        <div class="mb-4">
+            <label for="Description" class="block text-sm font-medium text-gray-700">Açıklama</label>
+            <textarea id="Description" name="Description" class="mt-2 p-2 border border-gray-300 rounded w-full">@Model.Description</textarea>
+        </div>
+
+        <button type="submit" class="bg-blue-600 text-white p-3 rounded">Kaydet</button>
+    </form>
+</div>

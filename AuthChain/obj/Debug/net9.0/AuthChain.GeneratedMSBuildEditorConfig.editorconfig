@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AuthChain
 build_property.RootNamespace = AuthChain
@@ -20,38 +28,46 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/Realm/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVhbG0vQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/Realm/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVhbG0vRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/Realm/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVhbG0vRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Pages/Shared/_Navbar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19OYXZiYXIuY3NodG1s
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/Realm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVhbG0vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Pages/Shared/_Sidebar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19TaWRlYmFyLmNzaHRtbA==
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/adem/Masaüstü/Adem/AuthChain/AuthChain/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

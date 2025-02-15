@@ -1,0 +1,52 @@
+@model IEnumerable<AuthChain.DTOs.RealmDto>
+
+@{
+    ViewData["Title"] = "Realm Listesi";
+}
+
+<div class="container mx-auto p-6">
+    <h1 class="text-3xl font-semibold mb-6">@ViewData["Title"]</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="bg-green-500 text-white p-4 mb-4 rounded">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="bg-red-500 text-white p-4 mb-4 rounded">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <a href="@Url.Action("Create")" class="bg-blue-600 text-white p-3 rounded mb-4 inline-block">Yeni Realm Ekle</a>
+
+    <table class="min-w-full table-auto border-collapse border border-gray-200">
+        <thead>
+            <tr>
+                <th class="border border-gray-300 p-2">Id</th>
+                <th class="border border-gray-300 p-2">Ad</th>
+                <th class="border border-gray-300 p-2">Açıklama</th>
+                <th class="border border-gray-300 p-2">Oluşturulma Tarihi</th>
+                <th class="border border-gray-300 p-2">Eylemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var realm in Model)
+            {
+                <tr>
+                    <td class="border border-gray-300 p-2">@realm.Id</td>
+                    <td class="border border-gray-300 p-2">@realm.Name</td>
+                    <td class="border border-gray-300 p-2">@realm.Description</td>
+                    <td class="border border-gray-300 p-2">@realm.CreatedAt</td>
+                    <td class="border border-gray-300 p-2">
+                        <a href="@Url.Action("Edit", new { id = realm.Id })" class="text-blue-600 hover:underline">Düzenle</a> | 
+                        <a href="@Url.Action("Delete", new { id = realm.Id })" class="text-red-600 hover:underline">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

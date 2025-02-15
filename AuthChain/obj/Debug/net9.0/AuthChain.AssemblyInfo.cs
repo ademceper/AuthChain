@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuthChain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d9c495771aab31169df2513eeabbab948a998b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+797aea066b7119f087b3b6a3f2be9f6ee338425a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuthChain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuthChain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
