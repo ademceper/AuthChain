@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5HWb7n8Mo2k=",
+  "success": true,
+  "projectFilePath": "/home/adem/Masaüstü/Adem/AuthChain/AuthChain/AuthChain.csproj",
+  "expectedPackageFiles": [
+    "/home/adem/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.21.0/microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
